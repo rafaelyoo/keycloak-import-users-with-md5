@@ -1,0 +1,20 @@
+{
+    "name": "gg/keycloak-carga",
+    "description": "Carga de usuário no keycloak",
+    "autoload": {
+        "psr-4": {
+            "Gg\\KeycloakCarga\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Yoo",
+            "email": "rafael.yoo@grancursosonline.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev",
+        "symfony/console": "5.4.x-dev"
+    }
+}
